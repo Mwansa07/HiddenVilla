@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiddenVilla_Server", "HiddenVilla_Server\HiddenVilla_Server.csproj", "{ABDFD52D-62E4-44F3-BD0A-FDD1D9C5372A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABDFD52D-62E4-44F3-BD0A-FDD1D9C5372A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDFD52D-62E4-44F3-BD0A-FDD1D9C5372A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDFD52D-62E4-44F3-BD0A-FDD1D9C5372A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDFD52D-62E4-44F3-BD0A-FDD1D9C5372A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55B87C7B-C0C4-436C-9F97-E6E25E0F7856}
+	EndGlobalSection
+EndGlobal
