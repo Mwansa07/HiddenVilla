@@ -4,7 +4,7 @@
     <h4 class="text-secondary">Room - @Room.Id</h4>
 
     @Room.Name<br />
-    @Room.Price.ToString("c")<br />
+    @Room.Price.ToString("C")<br />
     <input type="checkbox" @bind-value="Room.IsActive" checked="@(Room.IsActive? "checked":null)" /> &nbsp; Is Active<br />
     <span>This room is @(Room.IsActive?"Active": "Inactive")</span>
 
