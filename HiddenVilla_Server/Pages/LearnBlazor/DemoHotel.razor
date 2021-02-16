@@ -6,19 +6,21 @@
 <div class="border p-2 mt-2" style="background-color:azure">
     <h2 class="text-info"> Room List [USING COMPONENT]</h2>
     <div class="row container">
+        <div class="col-12">
+            <h4 class="text-info">Hotel Room's</h4>
+        </div>
         @foreach (var room in RoomsList)
         {
             <IndividualRoom Room="@room"></IndividualRoom>
         }
-    </div>
-    <br />
-    <h4 class="text-info">Hotel Amenities[assignment]</h4>
-    <div class="row container">
+        <div class="col-12 mt-4">
+            <h4 class="text-info">Hotel Amenitie's[assignemnt]</h4>
+        </div>
         @foreach (var amenity in AmenityList)
         {
             <HotelAmenity Amenity="@amenity"></HotelAmenity>
         }
-    </div>
+    </div> 
 </div>
 
 @code{
